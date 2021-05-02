@@ -5,4 +5,8 @@
     <string name="find_service_button_label">Busco un servicio</string>
     <string name="provide_service_button_label">Ofrezco un servicio</string>
     <string name="developed_by_text_label">"Desarrollado por "</string>
+    <!-- activity_busqueda_servicios.xml -->
+    <string name="find_service_edittext_hint">Buscar servicio</string>
+    <string name="find_zipcode_edittext_hint">Buscar c\u00f3digo postal</string>
+    <string name="search_button_label">Buscar</string>
 </resources>
