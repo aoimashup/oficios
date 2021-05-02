@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Oficios">
-        <activity android:name=".MostrarResultados"></activity>
+        <activity android:name=".MostrarResultados" />
         <activity android:name=".BusquedaServicios" />
         <activity android:name=".IngresarDatos" />
         <activity android:name=".IniciarSesion" />
