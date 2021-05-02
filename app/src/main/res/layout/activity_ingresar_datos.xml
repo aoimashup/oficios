@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".IngresarDatos">
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abc_vector_test"/>
+
+    <Spinner
+        android:id="@+id/ingresaServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/ingresarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Datos" />
+
+    <EditText
+        android:id="@+id/codigoPostal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código Postal"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/numeroCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número celular"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/paginaWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paginaWeb"
+        android:hint="Tu página web o de Facebook"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/yaRegistrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paginaWeb"
+        android:text="Ya me registré"/>
+
+</RelativeLayout>
