@@ -17,13 +17,13 @@
         android:text="Descripcion de la app" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buscaServicioBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Busco servicio" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ofrezcoServicioBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ofrezco un servicio" />
