@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo3"
-        android:hint="Nombre"
+        android:hint="@string/provider_name_edittext_hint"
         android:inputType="text"/>
 
     <EditText
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/nombreRegistrado"
-        android:hint="Contraseña"
+        android:hint="@string/provider_password_edittext_hint"
         android:inputType="text"/>
 
     <Button
@@ -34,6 +34,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/contrasegnaRegistrada"
-        android:text="Confirmar"/>
+        android:text="@string/sign_in_button_label"/>
 
 </RelativeLayout>

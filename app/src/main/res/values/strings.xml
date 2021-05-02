@@ -16,4 +16,8 @@
     <string name="provider_password_edittext_hint">Contrase\u00f1a</string>
     <string name="provider_password_confirmation_edittext_hint">Confirma contrase\u00f1a</string>
     <string name="submit_registry_button_label">Enviar registro</string>
+    <!-- activity_iniciar_sesion.xml -->
+    <!--<string name="provider_name_edittext_hint">Nombre</string>-->
+    <!--<string name="provider_password1_edittext_hint">Contrase\u00f1a</string>-->
+    <string name="sign_in_button_label">Iniciar sesi\u00f3n</string>
 </resources>
