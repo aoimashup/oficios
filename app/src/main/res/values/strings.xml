@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Oficios</string>
+    <!-- activity_main.xml -->
+    <string name="description_button_label">Descripci\u00f3n de la app</string>
+    <string name="find_service_button_label">Busco un servicio</string>
+    <string name="provide_service_button_label">Ofrezco un servicio</string>
+    <string name="developed_by_text_label">"Desarrollado por "</string>
 </resources>
