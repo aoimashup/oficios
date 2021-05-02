@@ -14,7 +14,7 @@
         android:src="@drawable/abc_vector_test" />
 
     <EditText
-        android:id="@+id/nombreRegistro"
+        android:id="@+id/nombreRegistrado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo3"
@@ -22,26 +22,18 @@
         android:inputType="text"/>
 
     <EditText
-        android:id="@+id/contrasegnaRegistro"
+        android:id="@+id/contrasegnaRegistrada"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nombreRegistro"
+        android:layout_below="@id/nombreRegistrado"
         android:hint="Contraseña"
         android:inputType="text"/>
 
     <Button
-        android:id="@+id/confirmarRegistro"
+        android:id="@+id/confirmarInicioSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/contrasegnaRegistro"
+        android:layout_below="@id/contrasegnaRegistrada"
         android:text="Confirmar"/>
-
-    <Button
-        android:id="@+id/yaRegistrado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/confirmarRegistro"
-        android:layout_alignBaseline="@id/confirmarRegistro"
-        android:text="Ya me registré"/>
 
 </RelativeLayout>
