@@ -9,4 +9,11 @@
     <string name="find_service_edittext_hint">Buscar servicio</string>
     <string name="find_zipcode_edittext_hint">Buscar c\u00f3digo postal</string>
     <string name="search_button_label">Buscar</string>
+    <!-- activity_registro.xml -->
+    <string name="registry_text_label">Registro</string>
+    <string name="provider_name_edittext_hint">Nombre</string>
+    <string name="provider_email_edittext_hint">Correo electr\u00f3nico</string>
+    <string name="provider_password_edittext_hint">Contrase\u00f1a</string>
+    <string name="provider_password_confirmation_edittext_hint">Confirma contrase\u00f1a</string>
+    <string name="submit_registry_button_label">Enviar registro</string>
 </resources>
