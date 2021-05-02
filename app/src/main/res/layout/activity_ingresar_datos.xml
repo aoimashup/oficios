@@ -22,20 +22,20 @@
         android:id="@+id/ingresarDatos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingresar Datos" />
+        android:text="@string/input_data_text_label" />
 
     <EditText
         android:id="@+id/codigoPostal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Código Postal"
+        android:hint="@string/zipcode_edittext_hint"
         android:inputType="text"/>
 
     <EditText
         android:id="@+id/numeroCelular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Número celular"
+        android:hint="@string/mobile_phone_edittext_hint"
         android:inputType="text"/>
 
     <EditText
@@ -43,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/paginaWeb"
-        android:hint="Tu página web o de Facebook"
+        android:hint="@string/webpage_edittext_hint"
         android:inputType="text"/>
 
     <Button
@@ -51,6 +51,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/paginaWeb"
-        android:text="Ya me registré"/>
+        android:text="@string/already_registered_button_label"/>
 
 </RelativeLayout>

@@ -5,6 +5,12 @@
     <string name="find_service_button_label">Busco un servicio</string>
     <string name="provide_service_button_label">Ofrezco un servicio</string>
     <string name="developed_by_text_label">"Desarrollado por "</string>
+    <!-- activity_ingresar_datos.xml -->
+    <string name="input_data_text_label">Ingresar datos</string>
+    <string name="zipcode_edittext_hint">C\u00f3digo postal</string>
+    <string name="mobile_phone_edittext_hint">N\u00famero celular</string>
+    <string name="webpage_edittext_hint">P\u00e1gina web o p\u00e1gina de Facebook</string>
+    <string name="already_registered_button_label">Ya me registr\u00e9</string>
     <!-- activity_busqueda_servicios.xml -->
     <string name="find_service_edittext_hint">Buscar servicio</string>
     <string name="find_zipcode_edittext_hint">Buscar c\u00f3digo postal</string>
