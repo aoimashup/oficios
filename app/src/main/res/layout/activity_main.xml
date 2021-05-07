@@ -28,6 +28,12 @@
         android:layout_height="wrap_content"
         android:text="@string/provide_service_button_label" />
 
+    <Button
+        android:id="@+id/cerrarSesionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesion"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

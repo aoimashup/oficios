@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         val buscoServiciosBtn = findViewById<Button>(R.id.buscaServicioBtn)
         val ofrezcoServicioBtn = findViewById<Button>(R.id.ofrezcoServicioBtn)
-
+        val cerrarSesionBtn = findViewById<Button>(R.id.cerrarSesionBtn)
 
         buscoServiciosBtn?.setOnClickListener()
         {
@@ -26,6 +26,11 @@ class MainActivity : AppCompatActivity() {
         ofrezcoServicioBtn.setOnClickListener(){
             val intent2 = Intent(this, Registro::class.java)
             startActivity(intent2)
+        }
+
+        cerrarSesionBtn?.setOnClickListener()
+        {
+            Toast.makeText(this@MainActivity, "Se cierra la sesion", Toast.LENGTH_LONG).show()
         }
 
     }
