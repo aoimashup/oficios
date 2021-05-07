@@ -12,15 +12,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val buscoServiciosBtn = findViewById<Button>(R.id.buscaServicioBtn)
+        val buscoServiciosBtn = findViewById<Button>(R.id.buscoServicioBtn)
         val ofrezcoServicioBtn = findViewById<Button>(R.id.ofrezcoServicioBtn)
         val cerrarSesionBtn = findViewById<Button>(R.id.cerrarSesionBtn)
 
         buscoServiciosBtn?.setOnClickListener()
         {
             Toast.makeText(this@MainActivity, "JALA", Toast.LENGTH_LONG).show()
-            val intent = Intent(this, BusquedaServicios::class.java)
-            startActivity(intent)
+            val intentBuscoServicio = Intent(this, BusquedaServicios::class.java)
+            startActivity(intentBuscoServicio)
         }
 
         ofrezcoServicioBtn.setOnClickListener(){
