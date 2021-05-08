@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
 
         buscoServiciosBtn?.setOnClickListener()
         {
-            Toast.makeText(this@MainActivity, "JALA", Toast.LENGTH_LONG).show()
             val intentBuscoServicio = Intent(this, BusquedaServicios::class.java)
             startActivity(intentBuscoServicio)
         }
