@@ -23,8 +23,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         ofrezcoServicioBtn.setOnClickListener(){
-            val intent2 = Intent(this, Registro::class.java)
-            startActivity(intent2)
+            val intentOfrezcoServicio = Intent(this, IngresarDatos::class.java)
+            startActivity(intentOfrezcoServicio)
         }
 
         cerrarSesionBtn?.setOnClickListener()
