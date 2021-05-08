@@ -47,10 +47,10 @@
         android:inputType="text"/>
 
     <Button
-        android:id="@+id/yaRegistrado"
+        android:id="@+id/confirmarDatos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/paginaWeb"
-        android:text="@string/already_registered_button_label"/>
+        android:text="Confirmar Datos"/>
 
 </RelativeLayout>
