@@ -3,6 +3,7 @@ package com.example.oficios
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -17,6 +18,15 @@ class IngresarDatos : AppCompatActivity() {
             when (view.id) {
                 R.id.confirmarDatos -> {
                     Toast.makeText(this, "Confimo datos", Toast.LENGTH_LONG).show()
+                }
+            }
+        } else if (view is CheckBox) {
+            when (view.id) {
+                R.id.serv1 -> {
+
+                }
+                R.id.serv2 -> {
+
                 }
             }
         }

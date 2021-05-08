@@ -13,21 +13,26 @@
         android:layout_height="wrap_content"
         android:src="@drawable/abc_vector_test"/>
 
-    <Spinner
-        android:id="@+id/ingresaServicios"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <TextView
         android:id="@+id/ingresarDatos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/logo4"
         android:text="@string/input_data_text_label" />
+
+    <EditText
+        android:id="@+id/nombreProveedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingresarDatos"
+        android:hint="@string/provider_name_edittext_hint"
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/codigoPostal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/nombreProveedor"
         android:hint="@string/zipcode_edittext_hint"
         android:inputType="text"/>
 
@@ -36,14 +41,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/mobile_phone_edittext_hint"
+        android:layout_below="@id/codigoPostal"
         android:inputType="text"/>
+
+    <LinearLayout
+        android:id="@+id/services"
+        android:orientation="vertical"
+        android:layout_below="@id/numeroCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/serv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickListener"
+            android:text="Carpinteria" />
+        <CheckBox
+            android:id="@+id/serv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickListener"
+            android:text="Plomeria" />
+    </LinearLayout>
 
     <EditText
         android:id="@+id/paginaWeb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/paginaWeb"
         android:hint="@string/webpage_edittext_hint"
+        android:layout_below="@id/services"
         android:inputType="text"/>
 
     <Button
@@ -51,6 +77,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/paginaWeb"
+        android:onClick="onClickListener"
         android:text="Confirmar Datos"/>
 
 </RelativeLayout>
